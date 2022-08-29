@@ -4,6 +4,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
+    text-align: center;
   }
   
   div {
@@ -13,4 +14,19 @@ main {
   * {
     margin: 10px;
     padding: 10px;
+  }
+
+  #box1 {
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  #box2 {
+    flex-grow: 1;
+    flex-basis: auto;
+
+  }
+  #box3 {
+    flex-grow: 1;
+    flex-basis: auto;
+
   }
