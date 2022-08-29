@@ -1,0 +1,55 @@
+main {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+    
+  * {
+    margin: 2px;
+    padding: 10px;
+  }
+
+  .main{
+    border: 2.5px solid violet;
+    height: 600px;
+  }
+
+  .icon{
+    border: 1px dotted orange;
+    width: 40px;
+  }
+
+  .menu{
+    border: 1px dotted blue;
+    width: 160px;
+  }
+
+  .code{
+    border: 1px dotted blue;
+    width: 760px;
+  }
+
+  #mm{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #box1 {
+    flex-grow: 5;
+  }
+
+  #box2 {
+    flex-grow: 4;
+  }
+
+  #box3 {
+    flex-grow: 2;
+  }
+
+  #box4 {
+    flex-grow: 5;
+  }
+
+  #box5 {
+    flex-grow: 1;
+  }
